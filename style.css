@@ -108,7 +108,7 @@ p#conclusion {
 div#modal {
     position: fixed;
     top: 300px;
-    left: 400px;
+    left: 800px;
     height: 40px;
     background-color: blue;
     z-index: 99;
