@@ -68,7 +68,7 @@ h1#main-heading {
 }
 ul {
     color:purple;
-    font-family: 'dancing script;
+    font-family: 'dancing script';
     font-weight: 100;
     border: dotted darkgray;
     padding: 5px;
@@ -80,7 +80,7 @@ ul {
 h2 {
     color:cyan;
     text-align: center;
-    font-family: 'dancing script;
+    font-family: 'dancing script';
 	font-size: 18pt;
 }
 
