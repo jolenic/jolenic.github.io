@@ -1,0 +1,150 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+body {
+    background-color: #666699;
+}
+p {
+    color: pink;
+    font-family: lucida console;
+    margin: 10px
+}
+
+h1#main-heading {
+    color: purple;
+    font-family: 'lobster';
+    text-align: center; 
+    font-weight: bolder;
+    font-size: 24pt;
+    padding: 5px;
+    background: darkgray;
+    border: 10px ridge purple;
+    margin-bottom: 20px;
+}
+h4#time-text {
+    color:black;
+}
+ul {
+    color:purple;
+    font-family: 'dancing script';
+    font-weight: 400;
+	font-size: 18pt;
+}
+
+h2 {
+    color:cyan;
+    text-align: center;
+    font-family: 'dancing script';
+	font-size: 18pt;
+}
+
+div#gif {
+    text-align: center;
+}
+
+#modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+ 
+#modal-box {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 5px solid #454545;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 480px;
+}
+ 
+#modal-show {
+  background: purple;
+  border-radius: 5px;
+  border: 4px outset purple;
+  color: white;
+  font-size: 2em;
+  margin: 0.5em;
+  text-align: center;
+    font-family: 'lobster';
+    color: darkgray;
+    
+    
+}
+ 
+#modal-hide {
+  background: white;
+  border-radius: 15px;
+  color: #454545;
+  display: block;
+  float: right;
+  font-family: monospace;
+  font-size: 20px;
+  margin-right: -17px;
+  position: relative;
+  top: -18px;
+  width: 30px;
+}
+
+
+
+#the-list {
+   position:center;
+     border: dotted darkgray;
+    padding-left: 40px;
+    padding:10px
+    width: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
