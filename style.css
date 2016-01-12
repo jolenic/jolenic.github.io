@@ -46,8 +46,10 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
+
 body {
     background-color: #666699;
+	background: url("http://oi66.tinypic.com/295uy3o.jpg") repeat fixed center center / cover  rgba(0, 0, 0, 0);
 }
 p {
     color: pink;
