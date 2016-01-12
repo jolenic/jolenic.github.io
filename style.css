@@ -77,6 +77,9 @@ h1#main-heading {
     margin-bottom: 20px;
 }
 
+a {
+	color: darkgray;
+}
 ul {
     color:darkgray;
     font-family: lucidia console;
