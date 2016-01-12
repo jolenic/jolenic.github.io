@@ -46,117 +46,54 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-
 body {
-    background-color: #666699;
+    background: url("http://oi66.tinypic.com/295uy3o.jpg") repeat fixed center center / cover  rgba(0, 0, 0, 0);
+
 }
 p {
-    color: pink;
+    color: darkgray;
     font-family: lucida console;
     margin: 10px
 }
 
+#bio {
+background: rgba(18, 35, 17, 0.8);
+    width:500px;
+    float:right;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 20px;
+    
+}
+
 h1#main-heading {
-    color: purple;
+    color: #122311;
     font-family: 'lobster';
     text-align: center; 
     font-weight: bolder;
     font-size: 24pt;
     padding: 5px;
     background: darkgray;
-    border: 10px ridge purple;
+    border: 10px ridge #122311;
     margin-bottom: 20px;
 }
-h4#time-text {
-    color:black;
-}
+
 ul {
-    color:purple;
-    font-family: 'dancing script';
-    font-weight: 400;
-	font-size: 18pt;
+    color:darkgray;
+    font-family: lucidia console;
+    font-size:
+  
 }
 
 h2 {
-    color:cyan;
+    color:darkgray;
     text-align: center;
     font-family: 'dancing script';
 	font-size: 18pt;
 }
 
-div#gif {
-    text-align: center;
-}
-
-#modal-container {
-  color: purple;
-    font-family: 'lobster';
-    text-align: center; 
-    font-weight: bolder;
-    font-size: 24pt;
-    padding: 5px;
-    background: darkgray;
-    border: 10px ridge purple;
-  display: none;
-  height: 100%;
-  left: 0px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
- 
-#modal-box {
-  background-color: #fff;
-  border-radius: 5px;
-  border: 5px solid #454545;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 480px;
-}
- 
-#modal-show {
-  background: purple;
-  border-radius: 5px;
-  border: 4px outset purple;
-  color: white;
-  font-size: 2em;
-  margin: 0.5em;
-  text-align: center;
-    font-family: 'lobster';
-    color: darkgray;
-    
-    
-}
- 
-#modal-hide {
-	color: purple;
-    font-family: 'lobster';
-    text-align: center; 
-    font-weight: bolder;
-    padding: 5px;
-    background: darkgray;
-  background: white;
-  border-radius: 15px;
-  display: block;
-  float: right;
-  font-size: 20px;
-  margin-right: -17px;
-  position: relative;
-  top: -18px;
-  width: 30px;
-}
-
-
 
 #the-list {
-   position:center;
-     border: dotted darkgray;
     padding-left: 40px;
-    padding:10px
-    width: 500px;
-    margin-left: 200px;
-    margin-right: 200px;
-   
+    padding:10px;
+    margin-left: 100px;
 }

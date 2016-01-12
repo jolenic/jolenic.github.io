@@ -1,27 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
 <html>
     <head>
          <link href='https://fonts.googleapis.com/css?family=Playfair+Display|Lobster|Amatic+SC|Dancing+Script|Architects+Daughter' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8">
-        <title>Jolenic</title>
+        <title>Jolenic Web Design</title>
 		 <link rel="stylesheet" href="style.css">
     </head>
     <body>
-<div>
-    <div>
-    <div><h1 id="main-heading">Jolenic Web Development</h1></div>
-      
-<div><p>Hello and Welcome!</p>
+
+    <h1 id="main-heading">Jolenic Web Design</h1>
+
+<div id="bio"><p>Hello and Welcome!</p>
     <p>My name is Jennifer, and I'm rapidly becoming obsessed with coding.  As a long-time fan of the internet in general, my journey of discovery into the inner workings of the web has been quite the adveture, with new surprises and adventures around every corner.  I recently finished the Skillcrush Web Developer Blueprint, and am just beginning their Freelance WordPress Developer Blueprint, which I hope to translate into learning to build some fantastic sites for fantastic people and organizations!  I'm also working through the materials at Free Code Camp, in order to review my basic HTML/CSS and Javascript skills, as well as hopefully progress to some of the more advanced skills.  I am really passionate about self-guided learning, and I hope to be able to accomplish great things with my new-found tech powers!!</p>
-    </div>
-<div>
+
     <div id="list-title"><h2>Tech Skills, Such as They Are:</h2></div>
 <div id="the-list"><ul>
     <li>HTML and CSS</li>
@@ -31,54 +22,13 @@
     <li>Ruby</li>
 
     </ul></div>
-    </div>
+    
     <div id="website-link"><p>Also, I have a <a href="http://www.jenniferolenic.com">website</a> where you can hear me sing opera!</p></div>
     
-    <p id="conclusion">In conclusion, here's probably my favourite gif of all time: </p>
-<div id="gif"><img id="my-giff" src="http://i.imgur.com/6RpTZgI.gif" alt="A robot arm enthusiastically trying to feed chips to a styrofoam head." /></div>
+
 </div>
-       <button id="modal-show">Stay in Touch!</button>
-<div id="modal-container">
-  <section id="modal-box">
-    <button id="modal-hide">x</button>
-    <h2 id="newsletter-header">Sign up for my email list!</h2>
-    <form id="newsletter-signup" action="#" method="post" accept-charset="utf-8">
-      <input type="email" name="email" value="" placeholder="Your email">
-      <input type="submit" value="Sign up">
-    </form>
-  </section>
-</div>
-<script>
+     
 
-var showModal = function() { modalContainer.style.display = "block";
-}
-
-var closeModal = function() {
-modalContainer.style.display = "none";
-}
-
-var modalContainer = document.getElementById("modal-container");
-
-var showButton = document.getElementById("modal-show");
-showButton.addEventListener("click", showModal);
-
-var closeButton = document.getElementById("modal-hide");
-closeButton.addEventListener("click", closeModal);
-
-var handleNewsletterSignup = function(evt) {
-  evt.preventDefault(); // don't ACTUALLY send the form ;)
-  
-  var newsletterHeader = document.getElementById("newsletter-header");
- 
-  newsletterHeader.innerText = "Thank you for signing up!";
-    setTimeout(closeModal, 2000);
-};
- 
-var newsletterForm = document.getElementById("newsletter-signup");
-newsletterForm.addEventListener("submit", handleNewsletterSignup);
-        </script>
 
     </body>
 </html> 
-</body>
-</html>
