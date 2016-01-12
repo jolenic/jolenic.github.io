@@ -65,6 +65,14 @@ background: rgba(18, 35, 17, 0.8);
     
 }
 
+#examples {
+background: rgba(18, 35, 17, 0.8);
+    width:250px;
+    float:left;
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: 20px;
+}
+
 h1#main-heading {
     color: #122311;
     font-family: 'lobster';
@@ -80,10 +88,11 @@ h1#main-heading {
 a {
 	color: darkgray;
 }
+
 ul {
     color:darkgray;
     font-family: lucidia console;
-    font-size:
+    padding-left: 20px;
   
 }
 
