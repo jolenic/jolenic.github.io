@@ -88,7 +88,14 @@ div#gif {
 }
 
 #modal-container {
-  background-color: rgba(0, 0, 0, 0.5);
+  color: purple;
+    font-family: 'lobster';
+    text-align: center; 
+    font-weight: bolder;
+    font-size: 24pt;
+    padding: 5px;
+    background: darkgray;
+    border: 10px ridge purple;
   display: none;
   height: 100%;
   left: 0px;
@@ -123,12 +130,16 @@ div#gif {
 }
  
 #modal-hide {
+	color: purple;
+    font-family: 'lobster';
+    text-align: center; 
+    font-weight: bolder;
+    padding: 5px;
+    background: darkgray;
   background: white;
   border-radius: 15px;
-  color: #454545;
   display: block;
   float: right;
-  font-family: monospace;
   font-size: 20px;
   margin-right: -17px;
   position: relative;
