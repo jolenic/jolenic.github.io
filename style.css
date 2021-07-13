@@ -98,6 +98,10 @@ footer {
   text-align: center;
 }
 
+.box:active {
+  transform: scale(0.98);
+}
+
 .underline {
   text-decoration: underline;
   font-size: small;
